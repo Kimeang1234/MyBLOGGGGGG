@@ -18,11 +18,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": "src",
-    "paths": {
-      "src/Images/*": ["images/*"]
-    }
+    "jsx": "preserve",
+    "baseUrl": "src"
   },
   "include": [
     "src"
